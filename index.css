@@ -5,7 +5,7 @@ body{
 }
 body, a, footer {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 footer {
@@ -72,4 +72,84 @@ a {
     margin: 0 auto;
     padding-left: 25px;
     
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px;
+    color: black;
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.btns {
+    width: 499px;
+    height: 70px;
+    padding-top: 18px;
+    position: relative;
+    top: 8px;
+    width: 487px;
+    z-index: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#toplink {
+    position: absolute;
+    margin: 10px 150px 0 7px;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+}
+
+#thepics {
+    position: absolute;
+    margin: 10px 90px 0 7px;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+}
+
+#rgt {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+
+}
+#lft {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+#kiss{
+    font-family: inherit;
+    font-size: 11px;
+}
+
+#kis {
+    font-size: 14px;
+    color: rgb(62, 62, 158);
 }
