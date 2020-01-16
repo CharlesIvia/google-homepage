@@ -35,7 +35,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 169px;
+    padding-top: 200px;
 }
 
 .search {
@@ -152,4 +152,11 @@ a:hover {
 #kis {
     font-size: 14px;
     color: rgb(62, 62, 158);
+}
+
+.apps {
+    position: absolute;
+    margin: 3.5px 45px 0 7px;
+    right: 0;
+    top: 0;
 }
